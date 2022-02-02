@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rader og kolonner i tabeller</title>
+</head>
+
+<body>
+    <!-- The main container helps to control the layout of the entire page -->
+    <div class="container">
+        <!-- HTML5 semantic tags were used to better describe the structure of the page -->
+        <header class="header">
+            <div class="title">
+                Rader og kolonner i tabeller
+            </div>
+        </header>
+        <main class="main">
+            <article class="article">
+                <!-- The article uses CSS flexbox to arrange the tables -->
+                <table border="2">
+                    <caption>border="2"</caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                Overskrift 1
+                            </th>
+                            <th>
+                                Overskrift 2
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Innhold 1A
+                            </td>
+                            <td>
+                                Innhold 1B
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Innhold 2FA
+                            </td>
+                            <td>
+                                Innhold 2B
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table-1">
+                    <caption>Styling with CSS</caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                Overskrift 1
+                            </th>
+                            <th>
+                                Overskrift 2
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Innhold 1A
+                            </td>
+                            <td>
+                                Innhold 1B
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Innhold 2FA
+                            </td>
+                            <td>
+                                Innhold 2B
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table-2">
+                    <caption>Highlighting on hover</caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                År
+                            </th>
+                            <th>
+                                Låt
+                            </th>
+                            <th>
+                                Artist
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                2019
+                            </td>
+                            <td>
+                                Spirit in the Sky
+                            </td>
+                            <td>
+                                KeiiNO
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2020
+                            </td>
+                            <td>
+                                Attention
+                            </td>
+                            <td>
+                                Ulrikke Brandstorp
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2021
+                            </td>
+                            <td>
+                                Fallen Angel
+                            </td>
+                            <td>
+                                TIX
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </main>
+        <footer class="footer">
+            <img class="logo-footer" src="img/jobloop-logo-color.png" alt="Logo Jobloop">
+            <nav class="nav-footer">
+                Inspired by <a href="https://jobloop.no">Joobloop</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
