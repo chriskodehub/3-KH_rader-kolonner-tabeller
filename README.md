@@ -1,5 +1,6 @@
 # Rader og kolonner i tabeller 
-https://github.com/chriskodehub/3-KH_rader-kolonner-tabeller
+[Source code](https://github.com/chriskodehub/3-KH_rader-kolonner-tabeller)  
+[Live demo](https://chriskodehub.github.io/3-KH_rader-kolonner-tabeller/)
 
 ## Oppgave 1
 Skriv av koden under og prøv den først som den er i nettleseren. I koden over endrer du <tabel> til <tabel border> og kjører koden. Hvilke endringer ser du? Forsøk også å legge inn <tabel border = "2"> og leke litt med tallet som du setter inn.
